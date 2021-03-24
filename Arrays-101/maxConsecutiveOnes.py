@@ -14,6 +14,8 @@ def max_consecutive_ones(arr):
 def one_liner_consecutive_ones(arr):
     return max(map(len, ''.join(map(str, arr)).split('0')))
 
+# Time Complexity : O(n) one pass
+# Space Complexity : O(1)
 
 if __name__ == "__main__":
     nums = list(map(int, input().split(',')))
